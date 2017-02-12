@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/usb_f_mass_storage.ko := arm-poky-linux-gnueabi-ld.bfd   -r  -T /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/module-common.lds --build-id  -o drivers/usb/gadget/usb_f_mass_storage.ko drivers/usb/gadget/usb_f_mass_storage.o drivers/usb/gadget/usb_f_mass_storage.mod.o

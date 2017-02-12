@@ -1,0 +1,1 @@
+cmd_sound/core/snd-hwdep.ko := arm-poky-linux-gnueabi-ld.bfd   -r  -T /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/module-common.lds --build-id  -o sound/core/snd-hwdep.ko sound/core/snd-hwdep.o sound/core/snd-hwdep.mod.o

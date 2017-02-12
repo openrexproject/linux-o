@@ -1,0 +1,391 @@
+DEBUG: Executing shell function do_compile_kernelmodules
+NOTE: make -C /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build -j 1 modules CC=arm-poky-linux-gnueabi-gcc  -mno-thumb-interwork -marm -fuse-ld=bfd LD=arm-poky-linux-gnueabi-ld.bfd   LOADADDR=0x10008000
+make: Entering directory `/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build'
+  CHK     include/config/kernel.release
+  Using /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source as source for kernel
+  GEN     /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build/Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[3]: `include/generated/mach-types.h' is up to date.
+  CALL    /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/checksyscalls.sh
+  CC      scripts/mod/empty.o
+  MKELF   scripts/mod/elfconfig.h
+  CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/modpost.o
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/mod/modpost
+  CC [M]  fs/binfmt_misc.o
+  CC [M]  fs/configfs/inode.o
+  CC [M]  fs/configfs/file.o
+  CC [M]  fs/configfs/dir.o
+  CC [M]  fs/configfs/symlink.o
+  CC [M]  fs/configfs/mount.o
+  CC [M]  fs/configfs/item.o
+  LD [M]  fs/configfs/configfs.o
+  CC [M]  fs/fat/namei_msdos.o
+  LD [M]  fs/fat/msdos.o
+  CC [M]  fs/isofs/namei.o
+  CC [M]  fs/isofs/inode.o
+  CC [M]  fs/isofs/dir.o
+  CC [M]  fs/isofs/util.o
+  CC [M]  fs/isofs/rock.o
+  CC [M]  fs/isofs/export.o
+  CC [M]  fs/isofs/joliet.o
+  CC [M]  fs/isofs/compress.o
+  LD [M]  fs/isofs/isofs.o
+  CC [M]  fs/nls/nls_iso8859-15.o
+  CC [M]  fs/udf/balloc.o
+  CC [M]  fs/udf/dir.o
+  CC [M]  fs/udf/file.o
+  CC [M]  fs/udf/ialloc.o
+  CC [M]  fs/udf/inode.o
+  CC [M]  fs/udf/lowlevel.o
+  CC [M]  fs/udf/namei.o
+  CC [M]  fs/udf/partition.o
+  CC [M]  fs/udf/super.o
+  CC [M]  fs/udf/truncate.o
+  CC [M]  fs/udf/symlink.o
+  CC [M]  fs/udf/directory.o
+  CC [M]  fs/udf/misc.o
+  CC [M]  fs/udf/udftime.o
+  CC [M]  fs/udf/unicode.o
+  LD [M]  fs/udf/udf.o
+  CC [M]  crypto/tcrypt.o
+  CC [M]  drivers/i2c/algos/i2c-algo-pcf.o
+  CC [M]  drivers/i2c/algos/i2c-algo-pca.o
+  CC [M]  drivers/input/evbug.o
+  CC [M]  drivers/input/mouse/psmouse-base.o
+  CC [M]  drivers/input/mouse/synaptics.o
+  CC [M]  drivers/input/mouse/alps.o
+  CC [M]  drivers/input/mouse/elantech.o
+  CC [M]  drivers/input/mouse/logips2pp.o
+  CC [M]  drivers/input/mouse/trackpoint.o
+  CC [M]  drivers/input/mouse/cypress_ps2.o
+  LD [M]  drivers/input/mouse/psmouse.o
+  CC [M]  drivers/input/serio/serport.o
+  CC [M]  drivers/media/platform/mxc/capture/mxc_v4l2_capture.o
+  CC [M]  drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.o
+  CC [M]  drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.o
+  CC [M]  drivers/media/platform/mxc/capture/ipu_prp_enc.o
+  CC [M]  drivers/media/platform/mxc/capture/ipu_still.o
+  CC [M]  drivers/media/platform/mxc/capture/ipu_csi_enc.o
+  CC [M]  drivers/media/platform/mxc/capture/adv7180.o
+  CC [M]  drivers/media/platform/mxc/capture/ov5640.o
+  CC [M]  drivers/media/platform/mxc/capture/ov5640_mipi.o
+  CC [M]  drivers/media/platform/mxc/capture/ov5642.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5640_camera_int.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5642_camera.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.o
+  LD [M]  drivers/media/platform/mxc/capture/adv7180_tvin.o
+  CC [M]  drivers/media/platform/mxc/capture/v4l2-int-device.o
+  CC [M]  drivers/media/platform/mxc/subdev/mx6s_capture.o
+  CC [M]  drivers/media/platform/mxc/subdev/mxc_vadc.o
+  CC [M]  drivers/media/platform/mxc/subdev/mxc_mipi_csi.o
+  CC [M]  drivers/media/platform/mxc/subdev/ov5640.o
+  CC [M]  drivers/media/platform/mxc/subdev/ov5640_mipi.o
+  CC [M]  drivers/media/platform/mxc/subdev/ov5647_mipi.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5640_camera.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5640_camera_mipi.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5647_camera_mipi.o
+  CC [M]  drivers/media/usb/gspca/gspca.o
+  CC [M]  drivers/media/usb/gspca/autogain_functions.o
+  LD [M]  drivers/media/usb/gspca/gspca_main.o
+  CC [M]  drivers/media/usb/uvc/uvc_driver.o
+  CC [M]  drivers/media/usb/uvc/uvc_queue.o
+  CC [M]  drivers/media/usb/uvc/uvc_v4l2.o
+  CC [M]  drivers/media/usb/uvc/uvc_video.o
+  CC [M]  drivers/media/usb/uvc/uvc_ctrl.o
+  CC [M]  drivers/media/usb/uvc/uvc_status.o
+  CC [M]  drivers/media/usb/uvc/uvc_isight.o
+  CC [M]  drivers/media/usb/uvc/uvc_debugfs.o
+  LD [M]  drivers/media/usb/uvc/uvcvideo.o
+  CC [M]  drivers/media/v4l2-core/videobuf2-vmalloc.o
+  CC [M]  drivers/net/usb/pegasus.o
+  CC [M]  drivers/net/usb/rtl8150.o
+  CC [M]  drivers/net/usb/r8152.o
+  CC [M]  drivers/net/usb/asix_devices.o
+  CC [M]  drivers/net/usb/asix_common.o
+  CC [M]  drivers/net/usb/ax88172a.o
+  LD [M]  drivers/net/usb/asix.o
+  CC [M]  drivers/net/usb/ax88179_178a.o
+  CC [M]  drivers/net/usb/cdc_ether.o
+  CC [M]  drivers/net/usb/cdc_eem.o
+  CC [M]  drivers/net/usb/net1080.o
+  CC [M]  drivers/net/usb/cdc_subset.o
+  CC [M]  drivers/net/usb/zaurus.o
+  CC [M]  drivers/net/usb/usbnet.o
+  CC [M]  drivers/net/usb/cdc_ncm.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_pno.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_common.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_ip.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_custom_gpio.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_linux.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_linux_sched.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_cfg80211.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_linux_wq.o
+  CC [M]  drivers/net/wireless/bcmdhd/aiutils.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmevent.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmutils.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmwifi_channels.o
+  CC [M]  drivers/net/wireless/bcmdhd/hndpmu.o
+  CC [M]  drivers/net/wireless/bcmdhd/linux_osl.o
+  CC [M]  drivers/net/wireless/bcmdhd/sbutils.o
+  CC [M]  drivers/net/wireless/bcmdhd/siutils.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_android.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_cfg80211.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_cfgp2p.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_cfg_btcoex.o
+  CC [M]  drivers/net/wireless/bcmdhd/wldev_common.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_linux_mon.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_linux_platdev.o
+  CC [M]  drivers/net/wireless/bcmdhd/wl_cfgvendor.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmsdh.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmsdh_linux.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmsdh_sdmmc.o
+  CC [M]  drivers/net/wireless/bcmdhd/bcmsdh_sdmmc_linux.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_cdc.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_wlfc.o
+  CC [M]  drivers/net/wireless/bcmdhd/dhd_sdio.o
+  LD [M]  drivers/net/wireless/bcmdhd/bcmdhd.o
+  CC [M]  drivers/usb/class/cdc-acm.o
+  CC [M]  drivers/usb/gadget/ether.o
+  CC [M]  drivers/usb/gadget/mass_storage.o
+  CC [M]  drivers/usb/gadget/ncm.o
+  CC [M]  drivers/usb/gadget/serial.o
+  CC [M]  drivers/usb/gadget/zero.o
+  CC [M]  drivers/usb/gadget/inode.o
+  CC [M]  drivers/usb/gadget/usbstring.o
+  CC [M]  drivers/usb/gadget/config.o
+  CC [M]  drivers/usb/gadget/epautoconf.o
+  CC [M]  drivers/usb/gadget/composite.o
+  CC [M]  drivers/usb/gadget/functions.o
+  CC [M]  drivers/usb/gadget/configfs.o
+  CC [M]  drivers/usb/gadget/u_f.o
+  CC [M]  drivers/usb/gadget/f_acm.o
+  CC [M]  drivers/usb/gadget/f_ecm.o
+  CC [M]  drivers/usb/gadget/f_subset.o
+  CC [M]  drivers/usb/gadget/f_eem.o
+  CC [M]  drivers/usb/gadget/f_fs.o
+  CC [M]  drivers/usb/gadget/f_mass_storage.o
+  CC [M]  drivers/usb/gadget/storage_common.o
+  CC [M]  drivers/usb/gadget/f_ncm.o
+  CC [M]  drivers/usb/gadget/f_obex.o
+  CC [M]  drivers/usb/gadget/f_rndis.o
+  CC [M]  drivers/usb/gadget/rndis.o
+  CC [M]  drivers/usb/gadget/f_serial.o
+  CC [M]  drivers/usb/gadget/f_loopback.o
+  CC [M]  drivers/usb/gadget/f_sourcesink.o
+  LD [M]  drivers/usb/gadget/libcomposite.o
+  LD [M]  drivers/usb/gadget/usb_f_acm.o
+  LD [M]  drivers/usb/gadget/usb_f_ss_lb.o
+  CC [M]  drivers/usb/gadget/u_serial.o
+  LD [M]  drivers/usb/gadget/usb_f_serial.o
+  LD [M]  drivers/usb/gadget/usb_f_obex.o
+  CC [M]  drivers/usb/gadget/u_ether.o
+  LD [M]  drivers/usb/gadget/usb_f_ncm.o
+  LD [M]  drivers/usb/gadget/usb_f_ecm.o
+  LD [M]  drivers/usb/gadget/usb_f_eem.o
+  LD [M]  drivers/usb/gadget/usb_f_ecm_subset.o
+  LD [M]  drivers/usb/gadget/usb_f_rndis.o
+  LD [M]  drivers/usb/gadget/usb_f_mass_storage.o
+  LD [M]  drivers/usb/gadget/usb_f_fs.o
+  LD [M]  drivers/usb/gadget/g_zero.o
+  LD [M]  drivers/usb/gadget/g_ether.o
+  LD [M]  drivers/usb/gadget/gadgetfs.o
+  LD [M]  drivers/usb/gadget/g_mass_storage.o
+  LD [M]  drivers/usb/gadget/g_serial.o
+  LD [M]  drivers/usb/gadget/g_ncm.o
+  CC [M]  drivers/usb/serial/usb-serial.o
+  CC [M]  drivers/usb/serial/generic.o
+  CC [M]  drivers/usb/serial/bus.o
+  LD [M]  drivers/usb/serial/usbserial.o
+  CC [M]  drivers/usb/serial/ftdi_sio.o
+  CC [M]  drivers/usb/serial/option.o
+  CC [M]  drivers/usb/serial/usb_wwan.o
+  CC [M]  drivers/video/mxc/mxc_dcic.o
+  CC [M]  sound/core/hwdep.o
+  CC [M]  sound/core/rawmidi.o
+  LD [M]  sound/core/snd-hwdep.o
+  LD [M]  sound/core/snd-rawmidi.o
+  CC [M]  sound/usb/card.o
+  CC [M]  sound/usb/clock.o
+  CC [M]  sound/usb/endpoint.o
+  CC [M]  sound/usb/format.o
+  CC [M]  sound/usb/helper.o
+  CC [M]  sound/usb/mixer.o
+  CC [M]  sound/usb/mixer_quirks.o
+  CC [M]  sound/usb/pcm.o
+  CC [M]  sound/usb/proc.o
+  CC [M]  sound/usb/quirks.o
+  CC [M]  sound/usb/stream.o
+  CC [M]  sound/usb/midi.o
+  LD [M]  sound/usb/snd-usb-audio.o
+  LD [M]  sound/usb/snd-usbmidi-lib.o
+  CC [M]  lib/crc-ccitt.o
+  CC [M]  lib/crc-itu-t.o
+  CC [M]  lib/crc7.o
+  CC [M]  lib/libcrc32c.o
+  Building modules, stage 2.
+  MODPOST 79 modules
+  CC      crypto/tcrypt.mod.o
+  LD [M]  crypto/tcrypt.ko
+  CC      drivers/i2c/algos/i2c-algo-pca.mod.o
+  LD [M]  drivers/i2c/algos/i2c-algo-pca.ko
+  CC      drivers/i2c/algos/i2c-algo-pcf.mod.o
+  LD [M]  drivers/i2c/algos/i2c-algo-pcf.ko
+  CC      drivers/input/evbug.mod.o
+  LD [M]  drivers/input/evbug.ko
+  CC      drivers/input/mouse/psmouse.mod.o
+  LD [M]  drivers/input/mouse/psmouse.ko
+  CC      drivers/input/serio/serport.mod.o
+  LD [M]  drivers/input/serio/serport.ko
+  CC      drivers/media/platform/mxc/capture/adv7180_tvin.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/adv7180_tvin.ko
+  CC      drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.ko
+  CC      drivers/media/platform/mxc/capture/ipu_csi_enc.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ipu_csi_enc.ko
+  CC      drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.ko
+  CC      drivers/media/platform/mxc/capture/ipu_prp_enc.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ipu_prp_enc.ko
+  CC      drivers/media/platform/mxc/capture/ipu_still.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ipu_still.ko
+  CC      drivers/media/platform/mxc/capture/mxc_v4l2_capture.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/mxc_v4l2_capture.ko
+  CC      drivers/media/platform/mxc/capture/ov5640_camera_int.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5640_camera_int.ko
+  CC      drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.ko
+  CC      drivers/media/platform/mxc/capture/ov5642_camera.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/ov5642_camera.ko
+  CC      drivers/media/platform/mxc/capture/v4l2-int-device.mod.o
+  LD [M]  drivers/media/platform/mxc/capture/v4l2-int-device.ko
+  CC      drivers/media/platform/mxc/subdev/mx6s_capture.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/mx6s_capture.ko
+  CC      drivers/media/platform/mxc/subdev/mxc_mipi_csi.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/mxc_mipi_csi.ko
+  CC      drivers/media/platform/mxc/subdev/mxc_vadc.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/mxc_vadc.ko
+  CC      drivers/media/platform/mxc/subdev/ov5640_camera.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5640_camera.ko
+  CC      drivers/media/platform/mxc/subdev/ov5640_camera_mipi.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5640_camera_mipi.ko
+  CC      drivers/media/platform/mxc/subdev/ov5647_camera_mipi.mod.o
+  LD [M]  drivers/media/platform/mxc/subdev/ov5647_camera_mipi.ko
+  CC      drivers/media/usb/gspca/gspca_main.mod.o
+  LD [M]  drivers/media/usb/gspca/gspca_main.ko
+  CC      drivers/media/usb/uvc/uvcvideo.mod.o
+  LD [M]  drivers/media/usb/uvc/uvcvideo.ko
+  CC      drivers/media/v4l2-core/videobuf2-vmalloc.mod.o
+  LD [M]  drivers/media/v4l2-core/videobuf2-vmalloc.ko
+  CC      drivers/net/usb/asix.mod.o
+  LD [M]  drivers/net/usb/asix.ko
+  CC      drivers/net/usb/ax88179_178a.mod.o
+  LD [M]  drivers/net/usb/ax88179_178a.ko
+  CC      drivers/net/usb/cdc_eem.mod.o
+  LD [M]  drivers/net/usb/cdc_eem.ko
+  CC      drivers/net/usb/cdc_ether.mod.o
+  LD [M]  drivers/net/usb/cdc_ether.ko
+  CC      drivers/net/usb/cdc_ncm.mod.o
+  LD [M]  drivers/net/usb/cdc_ncm.ko
+  CC      drivers/net/usb/cdc_subset.mod.o
+  LD [M]  drivers/net/usb/cdc_subset.ko
+  CC      drivers/net/usb/net1080.mod.o
+  LD [M]  drivers/net/usb/net1080.ko
+  CC      drivers/net/usb/pegasus.mod.o
+  LD [M]  drivers/net/usb/pegasus.ko
+  CC      drivers/net/usb/r8152.mod.o
+  LD [M]  drivers/net/usb/r8152.ko
+  CC      drivers/net/usb/rtl8150.mod.o
+  LD [M]  drivers/net/usb/rtl8150.ko
+  CC      drivers/net/usb/usbnet.mod.o
+  LD [M]  drivers/net/usb/usbnet.ko
+  CC      drivers/net/usb/zaurus.mod.o
+  LD [M]  drivers/net/usb/zaurus.ko
+  CC      drivers/net/wireless/bcmdhd/bcmdhd.mod.o
+  LD [M]  drivers/net/wireless/bcmdhd/bcmdhd.ko
+  CC      drivers/usb/class/cdc-acm.mod.o
+  LD [M]  drivers/usb/class/cdc-acm.ko
+  CC      drivers/usb/gadget/g_ether.mod.o
+  LD [M]  drivers/usb/gadget/g_ether.ko
+  CC      drivers/usb/gadget/g_mass_storage.mod.o
+  LD [M]  drivers/usb/gadget/g_mass_storage.ko
+  CC      drivers/usb/gadget/g_ncm.mod.o
+  LD [M]  drivers/usb/gadget/g_ncm.ko
+  CC      drivers/usb/gadget/g_serial.mod.o
+  LD [M]  drivers/usb/gadget/g_serial.ko
+  CC      drivers/usb/gadget/g_zero.mod.o
+  LD [M]  drivers/usb/gadget/g_zero.ko
+  CC      drivers/usb/gadget/gadgetfs.mod.o
+  LD [M]  drivers/usb/gadget/gadgetfs.ko
+  CC      drivers/usb/gadget/libcomposite.mod.o
+  LD [M]  drivers/usb/gadget/libcomposite.ko
+  CC      drivers/usb/gadget/u_ether.mod.o
+  LD [M]  drivers/usb/gadget/u_ether.ko
+  CC      drivers/usb/gadget/u_serial.mod.o
+  LD [M]  drivers/usb/gadget/u_serial.ko
+  CC      drivers/usb/gadget/usb_f_acm.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_acm.ko
+  CC      drivers/usb/gadget/usb_f_ecm.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_ecm.ko
+  CC      drivers/usb/gadget/usb_f_ecm_subset.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_ecm_subset.ko
+  CC      drivers/usb/gadget/usb_f_eem.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_eem.ko
+  CC      drivers/usb/gadget/usb_f_fs.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_fs.ko
+  CC      drivers/usb/gadget/usb_f_mass_storage.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_mass_storage.ko
+  CC      drivers/usb/gadget/usb_f_ncm.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_ncm.ko
+  CC      drivers/usb/gadget/usb_f_obex.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_obex.ko
+  CC      drivers/usb/gadget/usb_f_rndis.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_rndis.ko
+  CC      drivers/usb/gadget/usb_f_serial.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_serial.ko
+  CC      drivers/usb/gadget/usb_f_ss_lb.mod.o
+  LD [M]  drivers/usb/gadget/usb_f_ss_lb.ko
+  CC      drivers/usb/serial/ftdi_sio.mod.o
+  LD [M]  drivers/usb/serial/ftdi_sio.ko
+  CC      drivers/usb/serial/option.mod.o
+  LD [M]  drivers/usb/serial/option.ko
+  CC      drivers/usb/serial/usb_wwan.mod.o
+  LD [M]  drivers/usb/serial/usb_wwan.ko
+  CC      drivers/usb/serial/usbserial.mod.o
+  LD [M]  drivers/usb/serial/usbserial.ko
+  CC      drivers/video/mxc/mxc_dcic.mod.o
+  LD [M]  drivers/video/mxc/mxc_dcic.ko
+  CC      fs/binfmt_misc.mod.o
+  LD [M]  fs/binfmt_misc.ko
+  CC      fs/configfs/configfs.mod.o
+  LD [M]  fs/configfs/configfs.ko
+  CC      fs/fat/msdos.mod.o
+  LD [M]  fs/fat/msdos.ko
+  CC      fs/isofs/isofs.mod.o
+  LD [M]  fs/isofs/isofs.ko
+  CC      fs/nls/nls_iso8859-15.mod.o
+  LD [M]  fs/nls/nls_iso8859-15.ko
+  CC      fs/udf/udf.mod.o
+  LD [M]  fs/udf/udf.ko
+  CC      lib/crc-ccitt.mod.o
+  LD [M]  lib/crc-ccitt.ko
+  CC      lib/crc-itu-t.mod.o
+  LD [M]  lib/crc-itu-t.ko
+  CC      lib/crc7.mod.o
+  LD [M]  lib/crc7.ko
+  CC      lib/libcrc32c.mod.o
+  LD [M]  lib/libcrc32c.ko
+  CC      sound/core/snd-hwdep.mod.o
+  LD [M]  sound/core/snd-hwdep.ko
+  CC      sound/core/snd-rawmidi.mod.o
+  LD [M]  sound/core/snd-rawmidi.ko
+  CC      sound/usb/snd-usb-audio.mod.o
+  LD [M]  sound/usb/snd-usb-audio.ko
+  CC      sound/usb/snd-usbmidi-lib.mod.o
+  LD [M]  sound/usb/snd-usbmidi-lib.ko
+make: Leaving directory `/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build'
+DEBUG: Shell function do_compile_kernelmodules finished

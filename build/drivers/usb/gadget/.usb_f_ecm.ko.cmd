@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/usb_f_ecm.ko := arm-poky-linux-gnueabi-ld.bfd   -r  -T /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/module-common.lds --build-id  -o drivers/usb/gadget/usb_f_ecm.ko drivers/usb/gadget/usb_f_ecm.o drivers/usb/gadget/usb_f_ecm.mod.o

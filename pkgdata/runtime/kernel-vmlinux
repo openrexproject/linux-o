@@ -1,0 +1,15 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel based on Freescale 3.14.52-1.1.0 GA release, used by FSL Community BSP in order to provide support for i.MX6 based platforms and include official Linux kernel stable updates, backported features and fixes coming from the vendors, kernel community or FSL Community itself.
+SUMMARY: FSL Community BSP i.MX6 Linux kernel with backported features and fixes
+SECTION: base
+PKG_kernel-vmlinux: kernel-vmlinux
+FILES_kernel-vmlinux: /boot/vmlinux*
+FILERPROVIDESFLIST_kernel-vmlinux: /boot/vmlinux-3.14.61-fslc+g327d5c9
+FILES_INFO: {"/boot/vmlinux-3.14.61-fslc+g327d5c9": 14890464}
+FILERPROVIDES_/boot/vmlinux-3.14.61-fslc+g327d5c9_kernel-vmlinux: elf(buildid) (= 54f696997bcc967e66aa53f59870532147bf5291)
+PKGSIZE_kernel-vmlinux: 14890464

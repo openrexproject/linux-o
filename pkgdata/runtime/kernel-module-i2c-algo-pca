@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-i2c-algo-pca: i2c-algo-pca kernel module; I2C-Bus PCA9564/PCA9665 algorithm
+SUMMARY_kernel-module-i2c-algo-pca: i2c-algo-pca kernel module
+RDEPENDS_kernel-module-i2c-algo-pca: kernel-3.14.61-fslc+g327d5c9
+SECTION: base
+PKG_kernel-module-i2c-algo-pca: kernel-module-i2c-algo-pca
+FILES_kernel-module-i2c-algo-pca: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/i2c/algos/i2c-algo-pca.ko /etc/modules-load.d/i2c-algo-pca.conf /etc/modprobe.d/i2c-algo-pca.conf
+pkg_postinst_kernel-module-i2c-algo-pca: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-i2c-algo-pca: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/i2c/algos/i2c-algo-pca.ko": 11396}
+PKGSIZE_kernel-module-i2c-algo-pca: 11396

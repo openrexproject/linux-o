@@ -1,0 +1,1 @@
+cmd_drivers/video/mxc/mxc_dcic.ko := arm-poky-linux-gnueabi-ld.bfd   -r  -T /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/module-common.lds --build-id  -o drivers/video/mxc/mxc_dcic.ko drivers/video/mxc/mxc_dcic.o drivers/video/mxc/mxc_dcic.mod.o

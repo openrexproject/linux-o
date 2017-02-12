@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-usb-f-eem: usb-f-eem kernel module
+SUMMARY_kernel-module-usb-f-eem: usb-f-eem kernel module
+RDEPENDS_kernel-module-usb-f-eem: kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite
+SECTION: base
+PKG_kernel-module-usb-f-eem: kernel-module-usb-f-eem
+FILES_kernel-module-usb-f-eem: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_eem.ko /etc/modules-load.d/usb_f_eem.conf /etc/modprobe.d/usb_f_eem.conf
+pkg_postinst_kernel-module-usb-f-eem: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-usb-f-eem: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_eem.ko": 14076}
+PKGSIZE_kernel-module-usb-f-eem: 14076

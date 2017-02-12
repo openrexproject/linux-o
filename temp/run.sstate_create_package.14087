@@ -1,0 +1,143 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "")   echo "WARNING: exit code $ret from a shell command.";;
+        *)    echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from
+  "$BASH_COMMAND"";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export prefix="/usr"
+export STRIP="arm-poky-linux-gnueabi-strip"
+export localstatedir="/var"
+export BUILD_CC="gcc "
+export CMDLINE_CONSOLE="console=ttyS0"
+export libexecdir="/usr/lib/linux-fslc-imx"
+export datadir="/usr/share"
+export BUILD_CXX="g++ "
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types"
+export includedir="/usr/include"
+export BUILD_LDFLAGS="-L/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export STRINGS="arm-poky-linux-gnueabi-strings"
+export oldincludedir="/usr/include"
+export BUILD_CCLD="gcc "
+export PSEUDO_LOCALSTATEDIR="/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/pseudo/"
+export CC="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm  -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd"
+export RANLIB="arm-poky-linux-gnueabi-ranlib"
+export CPPFLAGS=""
+export CXX="arm-poky-linux-gnueabi-g++  -march=armv7-a -marm  -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd"
+export BUILD_NM="nm"
+export mandir="/usr/share/man"
+export PKG_CONFIG_SYSROOT_DIR="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd"
+export servicedir="/srv"
+export LD="arm-poky-linux-gnueabi-ld --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd "
+export LC_ALL="C"
+export PKG_CONFIG_DIR="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/pkgconfig"
+export bindir="/usr/bin"
+export sysconfdir="/etc"
+export CCLD="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm  -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd"
+export base_bindir="/bin"
+export PKG_CONFIG_LIBDIR="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/pkgconfig"
+export sbindir="/usr/sbin"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types"
+export systemd_system_unitdir="/lib/systemd/system"
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+export PATCH_GET="0"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fvisibility-inlines-hidden"
+export NM="arm-poky-linux-gnueabi-nm"
+export BUILD_LD="ld "
+export PSEUDO_DISABLED="0"
+export USER="ati-openrex"
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export MAKE="make"
+unset TARGET_ARCH
+export CCACHE_DIR="/home/ati-openrex"
+export OBJCOPY="arm-poky-linux-gnueabi-objcopy"
+export PSEUDO_PREFIX="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr"
+export BUILD_CFLAGS="-isystem/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export docdir="/usr/share/doc"
+export infodir="/usr/share/info"
+export base_prefix=""
+export ARCH="arm"
+export TERM="xterm"
+export BUILD_CPP="gcc  -E"
+export base_sbindir="/sbin"
+export systemd_unitdir="/lib/systemd"
+export OS="linux-gnueabi"
+export PKG_CONFIG_PATH="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/lib/pkgconfig:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/share/pkgconfig"
+export PSEUDO_NOSYMLINKEXP="1"
+export AS="arm-poky-linux-gnueabi-as "
+export AR="arm-poky-linux-gnueabi-ar"
+export BUILD_CPPFLAGS="-isystem/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/include"
+export CPP="arm-poky-linux-gnueabi-gcc -E --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd  -march=armv7-a -marm  -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9"
+export BUILD_CXXFLAGS="-isystem/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export CCACHE_DISABLE="1"
+export FC="arm-poky-linux-gnueabi-gfortran  -march=armv7-a -marm  -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd"
+export BUILD_FC="gfortran "
+export TARGET_CPPFLAGS=""
+export exec_prefix="/usr"
+export BUILD_RANLIB="ranlib"
+export nonarch_libdir="/usr/lib"
+export base_libdir="/lib"
+export LOGNAME="ati-openrex"
+export PATH="/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/bin/crossscripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/bin:/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/sources/poky/bitbake/bin:/home/ati-openrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types"
+export HOME="/home/ati-openrex"
+unset MACHINE
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export sharedstatedir="/com"
+export OBJDUMP="arm-poky-linux-gnueabi-objdump"
+export CROSS_COMPILE="arm-poky-linux-gnueabi-"
+unset DISTRO
+export libdir="/usr/lib"
+export nonarch_base_libdir="/lib"
+unset SHELL
+export UBOOT_ARCH="arm"
+export BUILD_STRIP="strip"
+export PSEUDO_PASSWD="/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux"
+
+sstate_create_package() {
+	TFILE=`mktemp /home/ati-openrex/fsl-community-bsp-own/build/sstate-cache/56/sstate:linux-fslc-imx:imx6qsabresd-poky-linux-gnueabi:3.14-1.1.x+gitAUTOINC+327d5c9063:r0:imx6qsabresd:3:5627bb592aebc79dbd45f088f97190d6_package_write_rpm.tgz.XXXXXXXX`
+	# Need to handle empty directories
+	if [ "$(ls -A)" ]; then
+		set +e
+		tar -czf $TFILE *
+		ret=$?
+		if [ $ret -ne 0 ] && [ $ret -ne 1 ]; then
+			exit 1
+		fi
+		set -e
+	else
+		tar -cz --file=$TFILE --files-from=/dev/null
+	fi
+	chmod 0664 $TFILE
+	mv -f $TFILE /home/ati-openrex/fsl-community-bsp-own/build/sstate-cache/56/sstate:linux-fslc-imx:imx6qsabresd-poky-linux-gnueabi:3.14-1.1.x+gitAUTOINC+327d5c9063:r0:imx6qsabresd:3:5627bb592aebc79dbd45f088f97190d6_package_write_rpm.tgz
+
+	if [ -n "" ]; then
+		rm -f /home/ati-openrex/fsl-community-bsp-own/build/sstate-cache/56/sstate:linux-fslc-imx:imx6qsabresd-poky-linux-gnueabi:3.14-1.1.x+gitAUTOINC+327d5c9063:r0:imx6qsabresd:3:5627bb592aebc79dbd45f088f97190d6_package_write_rpm.tgz.sig
+		echo  | gpg --batch --passphrase-fd 0 --detach-sign --local-user  --output /home/ati-openrex/fsl-community-bsp-own/build/sstate-cache/56/sstate:linux-fslc-imx:imx6qsabresd-poky-linux-gnueabi:3.14-1.1.x+gitAUTOINC+327d5c9063:r0:imx6qsabresd:3:5627bb592aebc79dbd45f088f97190d6_package_write_rpm.tgz.sig /home/ati-openrex/fsl-community-bsp-own/build/sstate-cache/56/sstate:linux-fslc-imx:imx6qsabresd-poky-linux-gnueabi:3.14-1.1.x+gitAUTOINC+327d5c9063:r0:imx6qsabresd:3:5627bb592aebc79dbd45f088f97190d6_package_write_rpm.tgz
+	fi
+
+	cd /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0
+	rm -rf /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package_write_rpm/
+
+}
+
+cd '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package_write_rpm/'
+sstate_create_package
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

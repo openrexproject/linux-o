@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/clut_vga16.c := scripts/pnmtologo -t vga16 -n clut_vga16 -o drivers/video/logo/clut_vga16.c /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/drivers/video/logo/clut_vga16.ppm

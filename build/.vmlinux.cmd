@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/bash /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/link-vmlinux.sh arm-poky-linux-gnueabi-ld.bfd    -p --no-undefined -X --build-id

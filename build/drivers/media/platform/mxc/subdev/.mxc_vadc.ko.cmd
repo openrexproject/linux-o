@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mxc/subdev/mxc_vadc.ko := arm-poky-linux-gnueabi-ld.bfd   -r  -T /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/scripts/module-common.lds --build-id  -o drivers/media/platform/mxc/subdev/mxc_vadc.ko drivers/media/platform/mxc/subdev/mxc_vadc.o drivers/media/platform/mxc/subdev/mxc_vadc.mod.o

@@ -1,0 +1,15 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel based on Freescale 3.14.52-1.1.0 GA release, used by FSL Community BSP in order to provide support for i.MX6 based platforms and include official Linux kernel stable updates, backported features and fixes coming from the vendors, kernel community or FSL Community itself.
+SUMMARY: FSL Community BSP i.MX6 Linux kernel with backported features and fixes
+SECTION: base
+PKG_kernel-devicetree: kernel-devicetree
+FILES_kernel-devicetree: /boot/devicetree*
+pkg_postinst_kernel-devicetree: \tcd /boot\n\tfor DTB_FILE in imx6q-sabresd.dtb imx6q-sabresd-ldo.dtb imx6q-sabresd-hdcp.dtb imx6q-sabresd-enetirq.dtb imx6q-sabresd-btwifi.dtb\n\tdo\n\t\tDTB_BASE_NAME=`basename ${DTB_FILE} | awk -F "." \'{print $1}\'`\n\t\tDTB_SYMLINK_NAME=`echo zImage-imx6qsabresd | sed "s/imx6qsabresd/${DTB_BASE_NAME}/g"`\n\t\tupdate-alternatives --install /boot/${DTB_BASE_NAME}.dtb ${DTB_BASE_NAME}.dtb devicetree-${DTB_SYMLINK_NAME}.dtb 31414 || true\n\tdone\n
+pkg_postrm_kernel-devicetree: \tcd /boot\n\tfor DTB_FILE in imx6q-sabresd.dtb imx6q-sabresd-ldo.dtb imx6q-sabresd-hdcp.dtb imx6q-sabresd-enetirq.dtb imx6q-sabresd-btwifi.dtb\n\tdo\n\t\tDTB_BASE_NAME=`basename ${DTB_FILE} | awk -F "." \'{print $1}\'`\n\t\tDTB_SYMLINK_NAME=`echo zImage-imx6qsabresd | sed "s/imx6qsabresd/${DTB_BASE_NAME}/g"`\n\t\tupdate-alternatives --remove ${DTB_BASE_NAME}.dtb devicetree-${DTB_SYMLINK_NAME}.dtb 31414 || true\n\tdone\n
+FILES_INFO: {"/boot/devicetree-zImage-imx6q-sabresd-ldo.dtb": 42846, "/boot/devicetree-zImage-imx6q-sabresd-enetirq.dtb": 42946, "/boot/devicetree-zImage-imx6q-sabresd.dtb": 42910, "/boot/devicetree-zImage-imx6q-sabresd-hdcp.dtb": 42999, "/boot/devicetree-zImage-imx6q-sabresd-btwifi.dtb": 43572}
+PKGSIZE_kernel-devicetree: 215273

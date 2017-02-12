@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-ov5640-camera-int: ov5640-camera-int kernel module; OV5640 Camera Driver
+SUMMARY_kernel-module-ov5640-camera-int: ov5640-camera-int kernel module
+RDEPENDS_kernel-module-ov5640-camera-int: kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9
+SECTION: base
+PKG_kernel-module-ov5640-camera-int: kernel-module-ov5640-camera-int
+FILES_kernel-module-ov5640-camera-int: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ov5640_camera_int.ko /etc/modules-load.d/ov5640_camera_int.conf /etc/modprobe.d/ov5640_camera_int.conf
+pkg_postinst_kernel-module-ov5640-camera-int: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-ov5640-camera-int: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ov5640_camera_int.ko": 29644}
+PKGSIZE_kernel-module-ov5640-camera-int: 29644

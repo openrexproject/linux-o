@@ -1,0 +1,23 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+NOTE: make -C /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/git O=/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build oldnoconfig
+make: Entering directory `/home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source'
+  HOSTCC  scripts/basic/fixdep
+  GEN     /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/build/Makefile
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+make: Leaving directory `/home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source'
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: Checking autotools environment for common misconfiguration
+NOTE: linux-fslc-imx: md5 checksum matched for file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7
+DEBUG: Python function do_qa_configure finished

@@ -1,0 +1,37 @@
+def base_do_unpack(d):
+    src_uri = (d.getVar('SRC_URI', True) or "").split()
+    if len(src_uri) == 0:
+        return
+
+    rootdir = d.getVar('WORKDIR', True)
+
+    # Ensure that we cleanup /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/git/patches
+    # TODO: Investigate if we can remove
+    # the entire /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/git in this case.
+    s_dir = d.getVar('S', True)
+    p_dir = os.path.join(s_dir, 'patches')
+    bb.utils.remove(p_dir, True)
+
+    try:
+        fetcher = bb.fetch2.Fetch(src_uri, d)
+        fetcher.unpack(rootdir)
+    except bb.fetch2.BBFetchException as e:
+        raise bb.build.FuncFailed(e)
+    s = d.getVar("S", True)
+    if s[-1] == '/':
+        # drop trailing slash, so that os.symlink(kernsrc, s) doesn't use s as directory name and fail
+        s=s[:-1]
+    kernsrc = d.getVar("STAGING_KERNEL_DIR", True)
+    if s != kernsrc:
+        bb.utils.mkdirhier(kernsrc)
+        bb.utils.remove(kernsrc, recurse=True)
+        if d.getVar("EXTERNALSRC", True):
+            # With EXTERNALSRC S will not be wiped so we can symlink to it
+            os.symlink(s, kernsrc)
+        else:
+            import shutil
+            shutil.move(s, kernsrc)
+            os.symlink(kernsrc, s)
+
+base_do_unpack(d)
+

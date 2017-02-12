@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for defconfig in paths:
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

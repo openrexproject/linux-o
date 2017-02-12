@@ -1,0 +1,779 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating EMPTY RPM Package for kernel
+NOTE: Creating RPM package for kernel-3.14.61-fslc+g327d5c9
+NOTE: Creating RPM package for kernel-vmlinux
+NOTE: Creating RPM package for kernel-image-3.14.61-fslc+g327d5c9
+NOTE: Creating RPM package for kernel-dev
+NOTE: Creating EMPTY RPM Package for kernel-modules
+NOTE: Creating RPM package for kernel-devicetree
+NOTE: Creating RPM package for kernel-module-tcrypt
+NOTE: Creating RPM package for kernel-module-i2c-algo-pca
+NOTE: Creating RPM package for kernel-module-i2c-algo-pcf
+NOTE: Creating RPM package for kernel-module-evbug
+NOTE: Creating RPM package for kernel-module-psmouse
+NOTE: Creating RPM package for kernel-module-serport
+NOTE: Creating RPM package for kernel-module-adv7180-tvin
+NOTE: Creating RPM package for kernel-module-ipu-bg-overlay-sdc
+NOTE: Creating RPM package for kernel-module-ipu-csi-enc
+NOTE: Creating RPM package for kernel-module-ipu-fg-overlay-sdc
+NOTE: Creating RPM package for kernel-module-ipu-prp-enc
+NOTE: Creating RPM package for kernel-module-ipu-still
+NOTE: Creating RPM package for kernel-module-mxc-v4l2-capture
+NOTE: Creating RPM package for kernel-module-ov5640-camera-int
+NOTE: Creating RPM package for kernel-module-ov5640-camera-mipi-int
+NOTE: Creating RPM package for kernel-module-ov5642-camera
+NOTE: Creating RPM package for kernel-module-v4l2-int-device
+NOTE: Creating RPM package for kernel-module-mx6s-capture
+NOTE: Creating RPM package for kernel-module-mxc-mipi-csi
+NOTE: Creating RPM package for kernel-module-mxc-vadc
+NOTE: Creating RPM package for kernel-module-ov5640-camera
+NOTE: Creating RPM package for kernel-module-ov5640-camera-mipi
+NOTE: Creating RPM package for kernel-module-ov5647-camera-mipi
+NOTE: Creating RPM package for kernel-module-gspca-main
+NOTE: Creating RPM package for kernel-module-uvcvideo
+NOTE: Creating RPM package for kernel-module-videobuf2-vmalloc
+NOTE: Creating RPM package for kernel-module-asix
+NOTE: Creating RPM package for kernel-module-ax88179-178a
+NOTE: Creating RPM package for kernel-module-cdc-eem
+NOTE: Creating RPM package for kernel-module-cdc-ether
+NOTE: Creating RPM package for kernel-module-cdc-ncm
+NOTE: Creating RPM package for kernel-module-cdc-subset
+NOTE: Creating RPM package for kernel-module-net1080
+NOTE: Creating RPM package for kernel-module-pegasus
+NOTE: Creating RPM package for kernel-module-r8152
+NOTE: Creating RPM package for kernel-module-rtl8150
+NOTE: Creating RPM package for kernel-module-usbnet
+NOTE: Creating RPM package for kernel-module-zaurus
+NOTE: Creating RPM package for kernel-module-bcmdhd
+NOTE: Creating RPM package for kernel-module-cdc-acm
+NOTE: Creating RPM package for kernel-module-g-ether
+NOTE: Creating RPM package for kernel-module-g-mass-storage
+NOTE: Creating RPM package for kernel-module-g-ncm
+NOTE: Creating RPM package for kernel-module-g-serial
+NOTE: Creating RPM package for kernel-module-g-zero
+NOTE: Creating RPM package for kernel-module-gadgetfs
+NOTE: Creating RPM package for kernel-module-libcomposite
+NOTE: Creating RPM package for kernel-module-u-ether
+NOTE: Creating RPM package for kernel-module-u-serial
+NOTE: Creating RPM package for kernel-module-usb-f-acm
+NOTE: Creating RPM package for kernel-module-usb-f-ecm
+NOTE: Creating RPM package for kernel-module-usb-f-ecm-subset
+NOTE: Creating RPM package for kernel-module-usb-f-eem
+NOTE: Creating RPM package for kernel-module-usb-f-fs
+NOTE: Creating RPM package for kernel-module-usb-f-mass-storage
+NOTE: Creating RPM package for kernel-module-usb-f-ncm
+NOTE: Creating RPM package for kernel-module-usb-f-obex
+NOTE: Creating RPM package for kernel-module-usb-f-rndis
+NOTE: Creating RPM package for kernel-module-usb-f-serial
+NOTE: Creating RPM package for kernel-module-usb-f-ss-lb
+NOTE: Creating RPM package for kernel-module-ftdi-sio
+NOTE: Creating RPM package for kernel-module-option
+NOTE: Creating RPM package for kernel-module-usb-wwan
+NOTE: Creating RPM package for kernel-module-usbserial
+NOTE: Creating RPM package for kernel-module-mxc-dcic
+NOTE: Creating RPM package for kernel-module-binfmt-misc
+NOTE: Creating RPM package for kernel-module-configfs
+NOTE: Creating RPM package for kernel-module-msdos
+NOTE: Creating RPM package for kernel-module-isofs
+NOTE: Creating RPM package for kernel-module-nls-iso8859-15
+NOTE: Creating RPM package for kernel-module-udf
+NOTE: Creating RPM package for kernel-module-crc-ccitt
+NOTE: Creating RPM package for kernel-module-crc-itu-t
+NOTE: Creating RPM package for kernel-module-crc7
+NOTE: Creating RPM package for kernel-module-libcrc32c
+NOTE: Creating RPM package for kernel-module-snd-hwdep
+NOTE: Creating RPM package for kernel-module-snd-rawmidi
+NOTE: Creating RPM package for kernel-module-snd-usb-audio
+NOTE: Creating RPM package for kernel-module-snd-usbmidi-lib
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: imx6qsabresd-poky-linux-gnueabi
+Processing files: kernel-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Processing files: kernel-3.14.61-fslc+g327d5c9-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Provides: kernel-base = 3.14+1.1.x+git0+327d5c9063 kernel-3.14.61-fslc+g327d5c9
+Requires(interp): /bin/sh
+Requires(post): kernel-image-3.14.61-fslc+g327d5c9 /bin/sh
+Provides: kernel-base = 3.14+1.1.x+git0+327d5c9063 kernel-3.14.61-fslc+g327d5c9
+Requires(interp): /bin/sh
+Requires(post): kernel-image-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-vmlinux-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Provides: elf(buildid) = 54f696997bcc967e66aa53f59870532147bf5291
+Provides: elf(buildid) = 54f696997bcc967e66aa53f59870532147bf5291
+Processing files: kernel-image-3.14.61-fslc+g327d5c9-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Provides: kernel-image = 3.14+1.1.x+git0+327d5c9063
+Requires(interp): /bin/sh /bin/sh
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Provides: kernel-image = 3.14+1.1.x+git0+327d5c9063
+Requires(interp): /bin/sh /bin/sh
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Processing files: kernel-dev-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Processing files: kernel-modules-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Processing files: kernel-devicetree-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Processing files: kernel-module-tcrypt-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-i2c-algo-pca-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-i2c-algo-pcf-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-evbug-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-psmouse-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-serport-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-adv7180-tvin-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ipu-bg-overlay-sdc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ipu-csi-enc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ipu-fg-overlay-sdc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ipu-prp-enc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ipu-still-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-mxc-v4l2-capture-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-ipu-prp-enc kernel-3.14.61-fslc+g327d5c9 kernel-module-ipu-fg-overlay-sdc kernel-module-ipu-csi-enc kernel-module-ipu-bg-overlay-sdc kernel-module-v4l2-int-device kernel-module-ipu-still /bin/sh
+Requires(postun): kernel-module-ipu-prp-enc kernel-3.14.61-fslc+g327d5c9 kernel-module-ipu-fg-overlay-sdc kernel-module-ipu-csi-enc kernel-module-ipu-bg-overlay-sdc kernel-module-v4l2-int-device kernel-module-ipu-still /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-ipu-prp-enc kernel-3.14.61-fslc+g327d5c9 kernel-module-ipu-fg-overlay-sdc kernel-module-ipu-csi-enc kernel-module-ipu-bg-overlay-sdc kernel-module-v4l2-int-device kernel-module-ipu-still /bin/sh
+Requires(postun): kernel-module-ipu-prp-enc kernel-3.14.61-fslc+g327d5c9 kernel-module-ipu-fg-overlay-sdc kernel-module-ipu-csi-enc kernel-module-ipu-bg-overlay-sdc kernel-module-v4l2-int-device kernel-module-ipu-still /bin/sh
+Processing files: kernel-module-ov5640-camera-int-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ov5640-camera-mipi-int-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ov5642-camera-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-v4l2-int-device kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-v4l2-int-device-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-mx6s-capture-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-mxc-mipi-csi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-mxc-vadc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ov5640-camera-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ov5640-camera-mipi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ov5647-camera-mipi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-gspca-main-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-uvcvideo-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-videobuf2-vmalloc /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-videobuf2-vmalloc /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-videobuf2-vmalloc /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-videobuf2-vmalloc /bin/sh
+Processing files: kernel-module-videobuf2-vmalloc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-asix-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-ax88179-178a-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-cdc-eem-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-cdc-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-cdc-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-cdc-subset-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-net1080-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-pegasus-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-r8152-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-rtl8150-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-usbnet-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-zaurus-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-module-cdc-ether kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-module-cdc-ether kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-usbnet kernel-module-cdc-ether kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-usbnet kernel-module-cdc-ether kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-bcmdhd-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-cdc-acm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-g-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-usb-f-rndis kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-usb-f-rndis kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-usb-f-rndis kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-usb-f-rndis kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-g-mass-storage-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite kernel-module-usb-f-mass-storage /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite kernel-module-usb-f-mass-storage /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite kernel-module-usb-f-mass-storage /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite kernel-module-usb-f-mass-storage /bin/sh
+Processing files: kernel-module-g-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-g-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-g-zero-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-gadgetfs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-libcomposite-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-u-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-u-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-usb-f-acm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-ecm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-ecm-subset-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-eem-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-fs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-mass-storage-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-obex-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-rndis-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-ether kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-u-serial kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-usb-f-ss-lb-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Requires(postun): kernel-module-configfs kernel-3.14.61-fslc+g327d5c9 kernel-module-libcomposite /bin/sh
+Processing files: kernel-module-ftdi-sio-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Processing files: kernel-module-option-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial kernel-module-usb-wwan /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial kernel-module-usb-wwan /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial kernel-module-usb-wwan /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial kernel-module-usb-wwan /bin/sh
+Processing files: kernel-module-usb-wwan-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-usbserial /bin/sh
+Processing files: kernel-module-usbserial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-mxc-dcic-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-binfmt-misc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-configfs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-msdos-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-isofs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-nls-iso8859-15-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-udf-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-crc-itu-t kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-crc-itu-t kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-crc-itu-t kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-module-crc-itu-t kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-crc-ccitt-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-crc-itu-t-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-crc7-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-libcrc32c-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-snd-hwdep-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-snd-rawmidi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 /bin/sh
+Processing files: kernel-module-snd-usb-audio-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-snd-hwdep kernel-module-snd-usbmidi-lib kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(postun): kernel-module-snd-hwdep kernel-module-snd-usbmidi-lib kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-module-snd-hwdep kernel-module-snd-usbmidi-lib kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(postun): kernel-module-snd-hwdep kernel-module-snd-usbmidi-lib kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Processing files: kernel-module-snd-usbmidi-lib-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(interp): /bin/sh /bin/sh
+Requires(post): kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Requires(postun): kernel-3.14.61-fslc+g327d5c9 kernel-module-snd-rawmidi /bin/sh
+Checking for unpackaged file(s): /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/../lib/rpm/check-files /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-3.14.61-fslc+g327d5c9-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-vmlinux-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-image-3.14.61-fslc+g327d5c9-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-dev-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-modules-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-devicetree-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-tcrypt-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-i2c-algo-pca-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-i2c-algo-pcf-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-evbug-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-psmouse-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-serport-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-adv7180-tvin-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ipu-bg-overlay-sdc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ipu-csi-enc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ipu-fg-overlay-sdc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ipu-prp-enc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ipu-still-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-mxc-v4l2-capture-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5640-camera-int-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5640-camera-mipi-int-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5642-camera-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-v4l2-int-device-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-mx6s-capture-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-mxc-mipi-csi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-mxc-vadc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5640-camera-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5640-camera-mipi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ov5647-camera-mipi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-gspca-main-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-uvcvideo-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-videobuf2-vmalloc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-asix-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ax88179-178a-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-cdc-eem-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-cdc-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-cdc-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-cdc-subset-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-net1080-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-pegasus-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-r8152-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-rtl8150-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usbnet-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-zaurus-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-bcmdhd-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-cdc-acm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-g-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-g-mass-storage-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-g-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-g-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-g-zero-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-gadgetfs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-libcomposite-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-u-ether-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-u-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-acm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-ecm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-ecm-subset-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-eem-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-fs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-mass-storage-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-ncm-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-obex-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-rndis-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-serial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-f-ss-lb-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-ftdi-sio-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-option-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usb-wwan-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-usbserial-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-mxc-dcic-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-binfmt-misc-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-configfs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-msdos-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-isofs-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-nls-iso8859-15-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-udf-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-crc-ccitt-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-crc-itu-t-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-crc7-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-libcrc32c-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-snd-hwdep-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-snd-rawmidi-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-snd-usb-audio-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+Wrote: /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms/imx6qsabresd/kernel-module-snd-usbmidi-lib-3.14+1.1.x+git0+327d5c9063-r0.imx6qsabresd.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms to /home/ati-openrex/fsl-community-bsp-own/build/tmp/deploy/rpm
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/deploy-rpms for packaging at /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd' | tee /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

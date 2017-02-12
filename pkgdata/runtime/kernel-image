@@ -1,0 +1,17 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Linux kernel based on Freescale 3.14.52-1.1.0 GA release, used by FSL Community BSP in order to provide support for i.MX6 based platforms and include official Linux kernel stable updates, backported features and fixes coming from the vendors, kernel community or FSL Community itself.
+SUMMARY: FSL Community BSP i.MX6 Linux kernel with backported features and fixes
+RPROVIDES_kernel-image:  kernel-image (=3.14-1.1.x+git0+327d5c9063)
+SECTION: base
+PKG_kernel-image: kernel-image-3.14.61-fslc+g327d5c9
+ALLOW_EMPTY_kernel-image: 1
+FILES_kernel-image: /boot/zImage*
+pkg_postinst_kernel-image: \tupdate-alternatives --install /boot/zImage zImage /boot/zImage-3.14.61-fslc+g327d5c9 31414 || true\n
+pkg_postrm_kernel-image: \tupdate-alternatives --remove zImage zImage-3.14.61-fslc+g327d5c9 || true\n
+FILES_INFO: {"/boot/zImage-3.14.61-fslc+g327d5c9": 5910904}
+PKGSIZE_kernel-image: 5910904

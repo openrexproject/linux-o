@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/logo_superh_mono.c := scripts/pnmtologo -t mono -n logo_superh_mono -o drivers/video/logo/logo_superh_mono.c /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/drivers/video/logo/logo_superh_mono.pbm

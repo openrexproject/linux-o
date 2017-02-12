@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-asix: asix kernel module; ASIX AX8817X based USB 2.0 Ethernet Devices
+SUMMARY_kernel-module-asix: asix kernel module
+RDEPENDS_kernel-module-asix: kernel-module-usbnet kernel-3.14.61-fslc+g327d5c9
+SECTION: base
+PKG_kernel-module-asix: kernel-module-asix
+FILES_kernel-module-asix: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/asix.ko /etc/modules-load.d/asix.conf /etc/modprobe.d/asix.conf
+pkg_postinst_kernel-module-asix: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-asix: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/asix.ko": 36220}
+PKGSIZE_kernel-module-asix: 36220

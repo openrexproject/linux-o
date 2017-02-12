@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-cdc-acm: cdc-acm kernel module; USB Abstract Control Model driver for USB modems and ISDN adapters
+SUMMARY_kernel-module-cdc-acm: cdc-acm kernel module
+RDEPENDS_kernel-module-cdc-acm: kernel-3.14.61-fslc+g327d5c9
+SECTION: base
+PKG_kernel-module-cdc-acm: kernel-module-cdc-acm
+FILES_kernel-module-cdc-acm: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/class/cdc-acm.ko /etc/modules-load.d/cdc-acm.conf /etc/modprobe.d/cdc-acm.conf
+pkg_postinst_kernel-module-cdc-acm: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-cdc-acm: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/class/cdc-acm.ko": 39972}
+PKGSIZE_kernel-module-cdc-acm: 39972

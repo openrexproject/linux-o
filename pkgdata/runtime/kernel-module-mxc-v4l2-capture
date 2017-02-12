@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-mxc-v4l2-capture: mxc-v4l2-capture kernel module; V4L2 capture driver for Mxc based cameras
+SUMMARY_kernel-module-mxc-v4l2-capture: mxc-v4l2-capture kernel module
+RDEPENDS_kernel-module-mxc-v4l2-capture: kernel-module-ipu-prp-enc kernel-3.14.61-fslc+g327d5c9 kernel-module-v4l2-int-device kernel-module-ipu-csi-enc kernel-module-ipu-still kernel-module-ipu-fg-overlay-sdc kernel-module-ipu-bg-overlay-sdc
+SECTION: base
+PKG_kernel-module-mxc-v4l2-capture: kernel-module-mxc-v4l2-capture
+FILES_kernel-module-mxc-v4l2-capture: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/mxc_v4l2_capture.ko /etc/modules-load.d/mxc_v4l2_capture.conf /etc/modprobe.d/mxc_v4l2_capture.conf
+pkg_postinst_kernel-module-mxc-v4l2-capture: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-mxc-v4l2-capture: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/mxc_v4l2_capture.ko": 39976}
+PKGSIZE_kernel-module-mxc-v4l2-capture: 39976

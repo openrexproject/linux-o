@@ -1,0 +1,11 @@
+imx6q-sabresd.o: \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/imx6q-sabresd.dts \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/imx6q.dtsi \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/imx6q-pinfunc.h \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/imx6qdl.dtsi \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/include/dt-bindings/clock/imx6qdl-clock.h \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/skeleton.dtsi \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/imx6qdl-sabresd.dtsi \
+ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work-shared/imx6qsabresd/kernel-source/arch/arm/boot/dts/include/dt-bindings/input/input.h

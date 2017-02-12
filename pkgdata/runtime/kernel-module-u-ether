@@ -1,0 +1,16 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-u-ether: u-ether kernel module
+SUMMARY_kernel-module-u-ether: u-ether kernel module
+RDEPENDS_kernel-module-u-ether: kernel-3.14.61-fslc+g327d5c9
+SECTION: base
+PKG_kernel-module-u-ether: kernel-module-u-ether
+FILES_kernel-module-u-ether: /lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/u_ether.ko /etc/modules-load.d/u_ether.conf /etc/modprobe.d/u_ether.conf
+pkg_postinst_kernel-module-u-ether: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-u-ether: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.14.61-fslc+g327d5c9\nelse\n\tdepmodwrapper -a -b $D 3.14.61-fslc+g327d5c9\nfi\n\n
+FILES_INFO: {"/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/u_ether.ko": 21932}
+PKGSIZE_kernel-module-u-ether: 21932

@@ -1,0 +1,37 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Running export PATH="/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/bin/crossscripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/bin:/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/sources/poky/bitbake/bin:/home/ati-openrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"; export HOME="/home/ati-openrex"; git -c core.fsyncobjectfiles=0 clone -s -n /home/ati-openrex/fsl-community-bsp-own/downloads//git2/github.com.Freescale.linux-fslc.git/ /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/git/
+DEBUG: Running export PATH="/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/bin/crossscripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/bin:/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/sources/poky/bitbake/bin:/home/ati-openrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"; export HOME="/home/ati-openrex"; git -c core.fsyncobjectfiles=0 remote set-url origin git://github.com/Freescale/linux-fslc.git
+DEBUG: Running export PATH="/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/bin/crossscripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/bin:/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/sources/poky/bitbake/bin:/home/ati-openrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"; export HOME="/home/ati-openrex"; git -c core.fsyncobjectfiles=0 checkout -B 3.14-1.1.x-imx 327d5c9063b715c91a88655533d5e477a0afe218
+DEBUG: Running export PATH="/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/usr/bin/crossscripts:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/usr/bin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/sbin:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/x86_64-linux/bin:/home/ati-openrex/fsl-community-bsp-own/sources/poky/scripts:/home/ati-openrex/fsl-community-bsp-own/sources/poky/bitbake/bin:/home/ati-openrex/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"; export HOME="/home/ati-openrex"; git -c core.fsyncobjectfiles=0 branch --set-upstream 3.14-1.1.x-imx origin/3.14-1.1.x-imx
+DEBUG: Searching for defconfig in paths:
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/poky
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/imx6qsabresd
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/mx6q
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/mx6
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/imx
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/armv7a
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/arm
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx-3.14-1.1.x+gitAUTOINC+327d5c9063/
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/
+    /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/files/
+NOTE: Unpacking /home/ati-openrex/fsl-community-bsp-own/sources/meta-fsl-arm/recipes-kernel/linux/linux-fslc-imx/defconfig to /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+NOTE: Checking has /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/git been created
+DEBUG: Python function do_qa_unpack finished

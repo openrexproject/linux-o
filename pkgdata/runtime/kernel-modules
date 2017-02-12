@@ -1,0 +1,14 @@
+PN: linux-fslc-imx
+PV: 3.14-1.1.x+gitAUTOINC+327d5c9063
+PR: r0
+PKGV: 3.14-1.1.x+git0+327d5c9063
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-modules: Kernel modules meta package
+SUMMARY: FSL Community BSP i.MX6 Linux kernel with backported features and fixes
+RDEPENDS_kernel-modules: kernel-module-cdc-ether kernel-module-asix kernel-module-usb-f-rndis kernel-module-usb-f-ss-lb kernel-module-usbserial kernel-module-g-ether kernel-module-usb-f-ecm kernel-module-uvcvideo kernel-module-videobuf2-vmalloc kernel-module-usb-f-acm kernel-module-cdc-subset kernel-module-tcrypt kernel-module-isofs kernel-module-usb-f-obex kernel-module-nls-iso8859-15 kernel-module-net1080 kernel-module-cdc-ncm kernel-module-cdc-acm kernel-module-crc7 kernel-module-snd-usb-audio kernel-module-adv7180-tvin kernel-module-ov5640-camera-int kernel-module-usb-f-serial kernel-module-mxc-vadc kernel-module-ov5647-camera-mipi kernel-module-ov5640-camera-mipi kernel-module-configfs kernel-module-cdc-eem kernel-module-zaurus kernel-module-ftdi-sio kernel-module-snd-rawmidi kernel-module-libcomposite kernel-module-option kernel-module-ov5640-camera-mipi-int kernel-module-crc-ccitt kernel-module-r8152 kernel-module-usb-f-eem kernel-module-ipu-still kernel-module-psmouse kernel-module-usb-f-mass-storage kernel-module-gspca-main kernel-module-mxc-dcic kernel-module-mxc-mipi-csi kernel-module-i2c-algo-pca kernel-module-serport kernel-module-usb-f-ncm kernel-module-evbug kernel-module-libcrc32c kernel-module-mxc-v4l2-capture kernel-module-v4l2-int-device kernel-module-g-mass-storage kernel-module-ov5642-camera kernel-module-u-serial kernel-module-gadgetfs kernel-module-i2c-algo-pcf kernel-module-crc-itu-t kernel-module-ov5640-camera kernel-module-ax88179-178a kernel-module-msdos kernel-module-binfmt-misc kernel-module-ipu-prp-enc kernel-module-g-ncm kernel-module-rtl8150 kernel-module-usb-wwan kernel-module-u-ether kernel-module-usb-f-ecm-subset kernel-module-ipu-csi-enc kernel-module-usb-f-fs kernel-module-ipu-bg-overlay-sdc kernel-module-ipu-fg-overlay-sdc kernel-module-udf kernel-module-pegasus kernel-module-snd-usbmidi-lib kernel-module-g-zero kernel-module-g-serial kernel-module-mx6s-capture kernel-module-usbnet kernel-module-snd-hwdep kernel-module-bcmdhd
+SECTION: base
+PKG_kernel-modules: kernel-modules
+ALLOW_EMPTY_kernel-modules: 1
+FILES_INFO: {}
+PKGSIZE_kernel-modules: 0

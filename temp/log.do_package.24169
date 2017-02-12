@@ -1,0 +1,473 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package
+DEBUG: Executing python function package_get_auto_pr
+DEBUG: Python function package_get_auto_pr finished
+DEBUG: Executing python function perform_packagecopy
+DEBUG: Python function perform_packagecopy finished
+DEBUG: Executing python function split_and_strip_files
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/crypto/tcrypt.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/sound/core/snd-rawmidi.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/sound/core/snd-hwdep.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/sound/usb/snd-usb-audio.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/sound/usb/snd-usbmidi-lib.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/lib/libcrc32c.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/lib/crc7.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/lib/crc-itu-t.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/lib/crc-ccitt.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/binfmt_misc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/nls/nls_iso8859-15.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/fat/msdos.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/isofs/isofs.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/configfs/configfs.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/fs/udf/udf.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/rtl8150.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/net1080.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/cdc_ncm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/cdc_subset.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/usbnet.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/zaurus.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/ax88179_178a.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/r8152.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/asix.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/pegasus.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/cdc_ether.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/net/usb/cdc_eem.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ov5640_camera_int.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ov5642_camera.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/v4l2-int-device.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/mxc_v4l2_capture.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ipu_csi_enc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ipu_prp_enc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ipu_bg_overlay_sdc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ipu_fg_overlay_sdc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/adv7180_tvin.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/capture/ipu_still.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/mx6s_capture.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/mxc_mipi_csi.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/ov5647_camera_mipi.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/ov5640_camera.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/ov5640_camera_mipi.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/platform/mxc/subdev/mxc_vadc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/usb/gspca/gspca_main.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/media/usb/uvc/uvcvideo.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/input/evbug.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/input/serio/serport.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/input/mouse/psmouse.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/i2c/algos/i2c-algo-pca.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/i2c/algos/i2c-algo-pcf.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/video/mxc/mxc_dcic.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/class/cdc-acm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_mass_storage.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_serial.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_ecm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_fs.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/u_ether.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_acm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/g_zero.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_ss_lb.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/g_ether.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/g_ncm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_eem.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_ncm.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_ecm_subset.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/libcomposite.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_obex.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/u_serial.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/g_serial.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/gadgetfs.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/usb_f_rndis.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/gadget/g_mass_storage.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/serial/ftdi_sio.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/serial/usbserial.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/serial/option.ko'
+DEBUG: runstrip: 'arm-poky-linux-gnueabi-strip' --strip-debug --remove-section=.comment --remove-section=.note --preserve-dates '/home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/package/lib/modules/3.14.61-fslc+g327d5c9/kernel/drivers/usb/serial/usb_wwan.ko'
+DEBUG: Python function split_and_strip_files finished
+DEBUG: Executing python function fixup_perms
+DEBUG: Python function fixup_perms finished
+DEBUG: Executing python function split_kernel_packages
+DEBUG: Python function split_kernel_packages finished
+DEBUG: Executing python function split_kernel_module_packages
+DEBUG: Python function split_kernel_module_packages finished
+DEBUG: Executing python function package_do_split_locales
+DEBUG: No locale files in this package
+DEBUG: Python function package_do_split_locales finished
+DEBUG: Executing python function populate_packages
+DEBUG: Python function populate_packages finished
+DEBUG: Executing python function package_fixsymlinks
+DEBUG: Python function package_fixsymlinks finished
+DEBUG: Executing python function package_name_hook
+DEBUG: Executing python function debian_package_name_hook
+DEBUG: LIBNAMES: pkg kernel-vmlinux libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-modules libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-zaurus libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-videobuf2-vmalloc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-v4l2-int-device libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-uvcvideo libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usbserial libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usbnet libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-wwan libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ss-lb libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-serial libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-rndis libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-obex libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ncm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-mass-storage libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-fs libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-eem libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ecm-subset libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ecm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-acm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-udf libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-u-serial libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-u-ether libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-tcrypt libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-snd-usbmidi-lib libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-snd-usb-audio libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-snd-rawmidi libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-snd-hwdep libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-serport libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-rtl8150 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-r8152 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-psmouse libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-pegasus libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5647-camera-mipi libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5642-camera libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-mipi-int libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-mipi libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-int libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-option libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-nls-iso8859-15 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-net1080 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-mxc-vadc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-mxc-v4l2-capture libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-mxc-mipi-csi libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-mxc-dcic libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-mx6s-capture libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-msdos libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-libcrc32c libs 1 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-libcomposite libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-isofs libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipu-still libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipu-prp-enc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipu-fg-overlay-sdc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipu-csi-enc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipu-bg-overlay-sdc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-i2c-algo-pcf libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-i2c-algo-pca libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-gspca-main libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-gadgetfs libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-zero libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-serial libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-ncm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-mass-storage libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-ether libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ftdi-sio libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-evbug libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-crc7 libs 1 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-crc-itu-t libs 1 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-crc-ccitt libs 1 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-configfs libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-cdc-subset libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-cdc-ncm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-cdc-ether libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-cdc-eem libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-cdc-acm libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-binfmt-misc libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-bcmdhd libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ax88179-178a libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-asix libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-adv7180-tvin libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-devicetree libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-dev libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-base libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel libs 0 bins 0 sonames []
+DEBUG: Python function debian_package_name_hook finished
+DEBUG: Python function package_name_hook finished
+DEBUG: Executing python function package_do_filedeps
+DEBUG: Python function package_do_filedeps finished
+DEBUG: Executing python function package_do_shlibs
+DEBUG: Reading shlib providers in /home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd/pkgdata/shlibs2
+DEBUG: calculating shlib provides for kernel
+DEBUG: LIBNAMES: pkg kernel sonames []
+DEBUG: calculating shlib provides for kernel-base
+DEBUG: LIBNAMES: pkg kernel-base sonames []
+DEBUG: calculating shlib provides for kernel-vmlinux
+DEBUG: LIBNAMES: pkg kernel-vmlinux sonames []
+DEBUG: calculating shlib provides for kernel-image
+DEBUG: LIBNAMES: pkg kernel-image sonames []
+DEBUG: calculating shlib provides for kernel-dev
+DEBUG: LIBNAMES: pkg kernel-dev sonames []
+DEBUG: calculating shlib provides for kernel-modules
+DEBUG: LIBNAMES: pkg kernel-modules sonames []
+DEBUG: calculating shlib provides for kernel-devicetree
+DEBUG: LIBNAMES: pkg kernel-devicetree sonames []
+DEBUG: calculating shlib provides for kernel-module-tcrypt
+DEBUG: LIBNAMES: pkg kernel-module-tcrypt sonames []
+DEBUG: calculating shlib provides for kernel-module-i2c-algo-pca
+DEBUG: LIBNAMES: pkg kernel-module-i2c-algo-pca sonames []
+DEBUG: calculating shlib provides for kernel-module-i2c-algo-pcf
+DEBUG: LIBNAMES: pkg kernel-module-i2c-algo-pcf sonames []
+DEBUG: calculating shlib provides for kernel-module-evbug
+DEBUG: LIBNAMES: pkg kernel-module-evbug sonames []
+DEBUG: calculating shlib provides for kernel-module-psmouse
+DEBUG: LIBNAMES: pkg kernel-module-psmouse sonames []
+DEBUG: calculating shlib provides for kernel-module-serport
+DEBUG: LIBNAMES: pkg kernel-module-serport sonames []
+DEBUG: calculating shlib provides for kernel-module-adv7180-tvin
+DEBUG: LIBNAMES: pkg kernel-module-adv7180-tvin sonames []
+DEBUG: calculating shlib provides for kernel-module-ipu-bg-overlay-sdc
+DEBUG: LIBNAMES: pkg kernel-module-ipu-bg-overlay-sdc sonames []
+DEBUG: calculating shlib provides for kernel-module-ipu-csi-enc
+DEBUG: LIBNAMES: pkg kernel-module-ipu-csi-enc sonames []
+DEBUG: calculating shlib provides for kernel-module-ipu-fg-overlay-sdc
+DEBUG: LIBNAMES: pkg kernel-module-ipu-fg-overlay-sdc sonames []
+DEBUG: calculating shlib provides for kernel-module-ipu-prp-enc
+DEBUG: LIBNAMES: pkg kernel-module-ipu-prp-enc sonames []
+DEBUG: calculating shlib provides for kernel-module-ipu-still
+DEBUG: LIBNAMES: pkg kernel-module-ipu-still sonames []
+DEBUG: calculating shlib provides for kernel-module-mxc-v4l2-capture
+DEBUG: LIBNAMES: pkg kernel-module-mxc-v4l2-capture sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5640-camera-int
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-int sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5640-camera-mipi-int
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-mipi-int sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5642-camera
+DEBUG: LIBNAMES: pkg kernel-module-ov5642-camera sonames []
+DEBUG: calculating shlib provides for kernel-module-v4l2-int-device
+DEBUG: LIBNAMES: pkg kernel-module-v4l2-int-device sonames []
+DEBUG: calculating shlib provides for kernel-module-mx6s-capture
+DEBUG: LIBNAMES: pkg kernel-module-mx6s-capture sonames []
+DEBUG: calculating shlib provides for kernel-module-mxc-mipi-csi
+DEBUG: LIBNAMES: pkg kernel-module-mxc-mipi-csi sonames []
+DEBUG: calculating shlib provides for kernel-module-mxc-vadc
+DEBUG: LIBNAMES: pkg kernel-module-mxc-vadc sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5640-camera
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5640-camera-mipi
+DEBUG: LIBNAMES: pkg kernel-module-ov5640-camera-mipi sonames []
+DEBUG: calculating shlib provides for kernel-module-ov5647-camera-mipi
+DEBUG: LIBNAMES: pkg kernel-module-ov5647-camera-mipi sonames []
+DEBUG: calculating shlib provides for kernel-module-gspca-main
+DEBUG: LIBNAMES: pkg kernel-module-gspca-main sonames []
+DEBUG: calculating shlib provides for kernel-module-uvcvideo
+DEBUG: LIBNAMES: pkg kernel-module-uvcvideo sonames []
+DEBUG: calculating shlib provides for kernel-module-videobuf2-vmalloc
+DEBUG: LIBNAMES: pkg kernel-module-videobuf2-vmalloc sonames []
+DEBUG: calculating shlib provides for kernel-module-asix
+DEBUG: LIBNAMES: pkg kernel-module-asix sonames []
+DEBUG: calculating shlib provides for kernel-module-ax88179-178a
+DEBUG: LIBNAMES: pkg kernel-module-ax88179-178a sonames []
+DEBUG: calculating shlib provides for kernel-module-cdc-eem
+DEBUG: LIBNAMES: pkg kernel-module-cdc-eem sonames []
+DEBUG: calculating shlib provides for kernel-module-cdc-ether
+DEBUG: LIBNAMES: pkg kernel-module-cdc-ether sonames []
+DEBUG: calculating shlib provides for kernel-module-cdc-ncm
+DEBUG: LIBNAMES: pkg kernel-module-cdc-ncm sonames []
+DEBUG: calculating shlib provides for kernel-module-cdc-subset
+DEBUG: LIBNAMES: pkg kernel-module-cdc-subset sonames []
+DEBUG: calculating shlib provides for kernel-module-net1080
+DEBUG: LIBNAMES: pkg kernel-module-net1080 sonames []
+DEBUG: calculating shlib provides for kernel-module-pegasus
+DEBUG: LIBNAMES: pkg kernel-module-pegasus sonames []
+DEBUG: calculating shlib provides for kernel-module-r8152
+DEBUG: LIBNAMES: pkg kernel-module-r8152 sonames []
+DEBUG: calculating shlib provides for kernel-module-rtl8150
+DEBUG: LIBNAMES: pkg kernel-module-rtl8150 sonames []
+DEBUG: calculating shlib provides for kernel-module-usbnet
+DEBUG: LIBNAMES: pkg kernel-module-usbnet sonames []
+DEBUG: calculating shlib provides for kernel-module-zaurus
+DEBUG: LIBNAMES: pkg kernel-module-zaurus sonames []
+DEBUG: calculating shlib provides for kernel-module-bcmdhd
+DEBUG: LIBNAMES: pkg kernel-module-bcmdhd sonames []
+DEBUG: calculating shlib provides for kernel-module-cdc-acm
+DEBUG: LIBNAMES: pkg kernel-module-cdc-acm sonames []
+DEBUG: calculating shlib provides for kernel-module-g-ether
+DEBUG: LIBNAMES: pkg kernel-module-g-ether sonames []
+DEBUG: calculating shlib provides for kernel-module-g-mass-storage
+DEBUG: LIBNAMES: pkg kernel-module-g-mass-storage sonames []
+DEBUG: calculating shlib provides for kernel-module-g-ncm
+DEBUG: LIBNAMES: pkg kernel-module-g-ncm sonames []
+DEBUG: calculating shlib provides for kernel-module-g-serial
+DEBUG: LIBNAMES: pkg kernel-module-g-serial sonames []
+DEBUG: calculating shlib provides for kernel-module-g-zero
+DEBUG: LIBNAMES: pkg kernel-module-g-zero sonames []
+DEBUG: calculating shlib provides for kernel-module-gadgetfs
+DEBUG: LIBNAMES: pkg kernel-module-gadgetfs sonames []
+DEBUG: calculating shlib provides for kernel-module-libcomposite
+DEBUG: LIBNAMES: pkg kernel-module-libcomposite sonames []
+DEBUG: calculating shlib provides for kernel-module-u-ether
+DEBUG: LIBNAMES: pkg kernel-module-u-ether sonames []
+DEBUG: calculating shlib provides for kernel-module-u-serial
+DEBUG: LIBNAMES: pkg kernel-module-u-serial sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-acm
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-acm sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-ecm
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ecm sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-ecm-subset
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ecm-subset sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-eem
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-eem sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-fs
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-fs sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-mass-storage
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-mass-storage sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-ncm
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ncm sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-obex
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-obex sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-rndis
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-rndis sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-serial
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-serial sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-f-ss-lb
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ss-lb sonames []
+DEBUG: calculating shlib provides for kernel-module-ftdi-sio
+DEBUG: LIBNAMES: pkg kernel-module-ftdi-sio sonames []
+DEBUG: calculating shlib provides for kernel-module-option
+DEBUG: LIBNAMES: pkg kernel-module-option sonames []
+DEBUG: calculating shlib provides for kernel-module-usb-wwan
+DEBUG: LIBNAMES: pkg kernel-module-usb-wwan sonames []
+DEBUG: calculating shlib provides for kernel-module-usbserial
+DEBUG: LIBNAMES: pkg kernel-module-usbserial sonames []
+DEBUG: calculating shlib provides for kernel-module-mxc-dcic
+DEBUG: LIBNAMES: pkg kernel-module-mxc-dcic sonames []
+DEBUG: calculating shlib provides for kernel-module-binfmt-misc
+DEBUG: LIBNAMES: pkg kernel-module-binfmt-misc sonames []
+DEBUG: calculating shlib provides for kernel-module-configfs
+DEBUG: LIBNAMES: pkg kernel-module-configfs sonames []
+DEBUG: calculating shlib provides for kernel-module-msdos
+DEBUG: LIBNAMES: pkg kernel-module-msdos sonames []
+DEBUG: calculating shlib provides for kernel-module-isofs
+DEBUG: LIBNAMES: pkg kernel-module-isofs sonames []
+DEBUG: calculating shlib provides for kernel-module-nls-iso8859-15
+DEBUG: LIBNAMES: pkg kernel-module-nls-iso8859-15 sonames []
+DEBUG: calculating shlib provides for kernel-module-udf
+DEBUG: LIBNAMES: pkg kernel-module-udf sonames []
+DEBUG: calculating shlib provides for kernel-module-crc-ccitt
+DEBUG: LIBNAMES: pkg kernel-module-crc-ccitt sonames []
+DEBUG: calculating shlib provides for kernel-module-crc-itu-t
+DEBUG: LIBNAMES: pkg kernel-module-crc-itu-t sonames []
+DEBUG: calculating shlib provides for kernel-module-crc7
+DEBUG: LIBNAMES: pkg kernel-module-crc7 sonames []
+DEBUG: calculating shlib provides for kernel-module-libcrc32c
+DEBUG: LIBNAMES: pkg kernel-module-libcrc32c sonames []
+DEBUG: calculating shlib provides for kernel-module-snd-hwdep
+DEBUG: LIBNAMES: pkg kernel-module-snd-hwdep sonames []
+DEBUG: calculating shlib provides for kernel-module-snd-rawmidi
+DEBUG: LIBNAMES: pkg kernel-module-snd-rawmidi sonames []
+DEBUG: calculating shlib provides for kernel-module-snd-usb-audio
+DEBUG: LIBNAMES: pkg kernel-module-snd-usb-audio sonames []
+DEBUG: calculating shlib provides for kernel-module-snd-usbmidi-lib
+DEBUG: LIBNAMES: pkg kernel-module-snd-usbmidi-lib sonames []
+DEBUG: calculating shlib requirements for kernel
+DEBUG: calculating shlib requirements for kernel-base
+DEBUG: calculating shlib requirements for kernel-vmlinux
+DEBUG: calculating shlib requirements for kernel-image
+DEBUG: calculating shlib requirements for kernel-dev
+DEBUG: calculating shlib requirements for kernel-modules
+DEBUG: calculating shlib requirements for kernel-devicetree
+DEBUG: calculating shlib requirements for kernel-module-tcrypt
+DEBUG: calculating shlib requirements for kernel-module-i2c-algo-pca
+DEBUG: calculating shlib requirements for kernel-module-i2c-algo-pcf
+DEBUG: calculating shlib requirements for kernel-module-evbug
+DEBUG: calculating shlib requirements for kernel-module-psmouse
+DEBUG: calculating shlib requirements for kernel-module-serport
+DEBUG: calculating shlib requirements for kernel-module-adv7180-tvin
+DEBUG: calculating shlib requirements for kernel-module-ipu-bg-overlay-sdc
+DEBUG: calculating shlib requirements for kernel-module-ipu-csi-enc
+DEBUG: calculating shlib requirements for kernel-module-ipu-fg-overlay-sdc
+DEBUG: calculating shlib requirements for kernel-module-ipu-prp-enc
+DEBUG: calculating shlib requirements for kernel-module-ipu-still
+DEBUG: calculating shlib requirements for kernel-module-mxc-v4l2-capture
+DEBUG: calculating shlib requirements for kernel-module-ov5640-camera-int
+DEBUG: calculating shlib requirements for kernel-module-ov5640-camera-mipi-int
+DEBUG: calculating shlib requirements for kernel-module-ov5642-camera
+DEBUG: calculating shlib requirements for kernel-module-v4l2-int-device
+DEBUG: calculating shlib requirements for kernel-module-mx6s-capture
+DEBUG: calculating shlib requirements for kernel-module-mxc-mipi-csi
+DEBUG: calculating shlib requirements for kernel-module-mxc-vadc
+DEBUG: calculating shlib requirements for kernel-module-ov5640-camera
+DEBUG: calculating shlib requirements for kernel-module-ov5640-camera-mipi
+DEBUG: calculating shlib requirements for kernel-module-ov5647-camera-mipi
+DEBUG: calculating shlib requirements for kernel-module-gspca-main
+DEBUG: calculating shlib requirements for kernel-module-uvcvideo
+DEBUG: calculating shlib requirements for kernel-module-videobuf2-vmalloc
+DEBUG: calculating shlib requirements for kernel-module-asix
+DEBUG: calculating shlib requirements for kernel-module-ax88179-178a
+DEBUG: calculating shlib requirements for kernel-module-cdc-eem
+DEBUG: calculating shlib requirements for kernel-module-cdc-ether
+DEBUG: calculating shlib requirements for kernel-module-cdc-ncm
+DEBUG: calculating shlib requirements for kernel-module-cdc-subset
+DEBUG: calculating shlib requirements for kernel-module-net1080
+DEBUG: calculating shlib requirements for kernel-module-pegasus
+DEBUG: calculating shlib requirements for kernel-module-r8152
+DEBUG: calculating shlib requirements for kernel-module-rtl8150
+DEBUG: calculating shlib requirements for kernel-module-usbnet
+DEBUG: calculating shlib requirements for kernel-module-zaurus
+DEBUG: calculating shlib requirements for kernel-module-bcmdhd
+DEBUG: calculating shlib requirements for kernel-module-cdc-acm
+DEBUG: calculating shlib requirements for kernel-module-g-ether
+DEBUG: calculating shlib requirements for kernel-module-g-mass-storage
+DEBUG: calculating shlib requirements for kernel-module-g-ncm
+DEBUG: calculating shlib requirements for kernel-module-g-serial
+DEBUG: calculating shlib requirements for kernel-module-g-zero
+DEBUG: calculating shlib requirements for kernel-module-gadgetfs
+DEBUG: calculating shlib requirements for kernel-module-libcomposite
+DEBUG: calculating shlib requirements for kernel-module-u-ether
+DEBUG: calculating shlib requirements for kernel-module-u-serial
+DEBUG: calculating shlib requirements for kernel-module-usb-f-acm
+DEBUG: calculating shlib requirements for kernel-module-usb-f-ecm
+DEBUG: calculating shlib requirements for kernel-module-usb-f-ecm-subset
+DEBUG: calculating shlib requirements for kernel-module-usb-f-eem
+DEBUG: calculating shlib requirements for kernel-module-usb-f-fs
+DEBUG: calculating shlib requirements for kernel-module-usb-f-mass-storage
+DEBUG: calculating shlib requirements for kernel-module-usb-f-ncm
+DEBUG: calculating shlib requirements for kernel-module-usb-f-obex
+DEBUG: calculating shlib requirements for kernel-module-usb-f-rndis
+DEBUG: calculating shlib requirements for kernel-module-usb-f-serial
+DEBUG: calculating shlib requirements for kernel-module-usb-f-ss-lb
+DEBUG: calculating shlib requirements for kernel-module-ftdi-sio
+DEBUG: calculating shlib requirements for kernel-module-option
+DEBUG: calculating shlib requirements for kernel-module-usb-wwan
+DEBUG: calculating shlib requirements for kernel-module-usbserial
+DEBUG: calculating shlib requirements for kernel-module-mxc-dcic
+DEBUG: calculating shlib requirements for kernel-module-binfmt-misc
+DEBUG: calculating shlib requirements for kernel-module-configfs
+DEBUG: calculating shlib requirements for kernel-module-msdos
+DEBUG: calculating shlib requirements for kernel-module-isofs
+DEBUG: calculating shlib requirements for kernel-module-nls-iso8859-15
+DEBUG: calculating shlib requirements for kernel-module-udf
+DEBUG: calculating shlib requirements for kernel-module-crc-ccitt
+DEBUG: calculating shlib requirements for kernel-module-crc-itu-t
+DEBUG: calculating shlib requirements for kernel-module-crc7
+DEBUG: calculating shlib requirements for kernel-module-libcrc32c
+DEBUG: calculating shlib requirements for kernel-module-snd-hwdep
+DEBUG: calculating shlib requirements for kernel-module-snd-rawmidi
+DEBUG: calculating shlib requirements for kernel-module-snd-usb-audio
+DEBUG: calculating shlib requirements for kernel-module-snd-usbmidi-lib
+DEBUG: Python function package_do_shlibs finished
+DEBUG: Executing python function package_do_pkgconfig
+DEBUG: Python function package_do_pkgconfig finished
+DEBUG: Executing python function read_shlibdeps
+DEBUG: Python function read_shlibdeps finished
+DEBUG: Executing python function package_depchains
+DEBUG: Python function package_depchains finished
+DEBUG: Executing python function emit_pkgdata
+DEBUG: Python function emit_pkgdata finished
+DEBUG: Executing shell function emit_depmod_pkgdata
+DEBUG: Shell function emit_depmod_pkgdata finished
+DEBUG: Python function do_package finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd' | tee /home/ati-openrex/fsl-community-bsp-own/build/tmp/work/imx6qsabresd-poky-linux-gnueabi/linux-fslc-imx/3.14-1.1.x+gitAUTOINC+327d5c9063-r0/sstate-build-package/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/ati-openrex/fsl-community-bsp-own/build/tmp/sysroots/imx6qsabresd:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished
